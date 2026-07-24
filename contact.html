@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - 98 Prime Productions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="images/98p_banner.png" alt="98 Prime Productions" class="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="page-content">
+        <h1>Contact</h1>
+
+        <p style="text-align: center;">
+            Interested in booking a session or have a question about services?
+        </p>
+        <p style="text-align: center;">
+            Fill out the form below and I will get back to you as soon as I can.
+        </p>
+
+        <form class="contact-form" action="mailto:contact@98prime.pro" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="service">Requested Service</label>
+            <select id="service" name="service">
+                <option value="">Select a service</option>
+                <option value="beach">Beach / Portrait Session</option>
+                <option value="family">Family Session</option>
+                <option value="event">Event Coverage</option>
+                <option value="video">Video Project</option>
+                <option value="other">Other / Custom</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>© 2026 98 Prime Productions | Panama City Beach, FL</p>
+    </footer>
+
+</body>
+</html>
